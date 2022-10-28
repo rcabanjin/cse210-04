@@ -48,14 +48,26 @@ The game must remain generally true to the order of play described earlier.
 
 Program Design:
 * Ron Ron Cabanjin
+    Cast Class
+    Display_point class
+    
 * Robin Dickson
+    Director Class
+    Keyboard services class
+    
 * Nefi Perez Martinez
+    actor class
+    
 * Sariah Tanner
-
+    Main Function
+    Video_services class 
+    
+    -------------------
+#Sariah
 Main Function
   def main()
   
-
+#Nefi
 Casting folder
 actor class = The responsibility of Actor is to keep track of its appearance, position and velocity in 2d space.
   def __init__
@@ -71,13 +83,13 @@ actor class = The responsibility of Actor is to keep track of its appearance, po
   def set_text
   def set_velocity
   
-  
+ #Ron 
 Display_point class = is to display the earn or lose point of each item that player touches 
   def __init__
   def get_message
   def set_message
   
-  
+ #Ron 
 Cast Class = To place the gems and rocks in the game screen
   def __init__
   def add_actor
@@ -85,7 +97,7 @@ Cast Class = To place the gems and rocks in the game screen
   def get_all_actors
   def remove_actor
   
-  
+#Rob  
 Directing Folder
 Director Class = control the sequence of play
   def __init__
@@ -93,12 +105,14 @@ Director Class = control the sequence of play
   def _get_inputs
   def _do_updates
   def _do_outputs
-  
+
+#Rob
 Services Folder
   Keyboard services class = to detect player key presses and translate them into  a point representing a direction.
     def __init__
     def __init__
-  
+ 
+ #Sariah 
   Video_services class = to draw the game state on the screen. 
     def __init__
     def close_window
