@@ -1,5 +1,5 @@
 #Import libraries
-import pygame
+"""import pygame
 import random 
 r = random.randint(0,255) 
 g = random.randint(0,255) 
@@ -67,5 +67,5 @@ class clear_buffer:
         return
 
 #Wait until everything is drawn to start playing
-pygame.display.flip()
+pygame.display.flip()"""
 
