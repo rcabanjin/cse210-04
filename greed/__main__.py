@@ -41,7 +41,7 @@ def main():
 
     # create the banner2
     banner2 = Actor()
-    banner2.set_text("ghjhjhjhj")
+    banner2.set_text("Greed Games")
     banner2.set_font_size(FONT_SIZE)
     banner2.set_color(WHITE)
     banner2.set_position(Point(CELL_SIZE + 10, 0))
